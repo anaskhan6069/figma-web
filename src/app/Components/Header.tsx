@@ -7,7 +7,7 @@ import { faMagnifyingGlass, faBars, faXmark, faPhone } from '@fortawesome/free-s
 
 
 const Header = () => {
-    let [menuIcon, setMenuIcon] = useState(false);
+    const [menuIcon, setMenuIcon] = useState(false);
 
     return (
         <>
